@@ -12,8 +12,6 @@
 		ACA754762255CA3F0089D688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA754742255CA3F0089D688 /* Main.storyboard */; };
 		ACA754782255CA460089D688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA754772255CA460089D688 /* Assets.xcassets */; };
 		ACA7547B2255CA460089D688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA754792255CA460089D688 /* LaunchScreen.storyboard */; };
-		ACA754862255CA470089D688 /* StopWatch02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA754852255CA470089D688 /* StopWatch02Tests.swift */; };
-		ACA754912255CA470089D688 /* StopWatch02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA754902255CA470089D688 /* StopWatch02UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		ACA7547A2255CA460089D688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACA7547C2255CA460089D688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACA754812255CA470089D688 /* StopWatch02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatch02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACA754852255CA470089D688 /* StopWatch02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch02Tests.swift; sourceTree = "<group>"; };
-		ACA754872255CA470089D688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACA7548C2255CA470089D688 /* StopWatch02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatch02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACA754902255CA470089D688 /* StopWatch02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch02UITests.swift; sourceTree = "<group>"; };
-		ACA754922255CA470089D688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				ACA7546F2255CA3F0089D688 /* StopWatch02 */,
-				ACA754842255CA470089D688 /* StopWatch02Tests */,
-				ACA7548F2255CA470089D688 /* StopWatch02UITests */,
 				ACA7546E2255CA3F0089D688 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				ACA7547C2255CA460089D688 /* Info.plist */,
 			);
 			path = StopWatch02;
-			sourceTree = "<group>";
-		};
-		ACA754842255CA470089D688 /* StopWatch02Tests */ = {
-			isa = PBXGroup;
-			children = (
-				ACA754852255CA470089D688 /* StopWatch02Tests.swift */,
-				ACA754872255CA470089D688 /* Info.plist */,
-			);
-			path = StopWatch02Tests;
-			sourceTree = "<group>";
-		};
-		ACA7548F2255CA470089D688 /* StopWatch02UITests */ = {
-			isa = PBXGroup;
-			children = (
-				ACA754902255CA470089D688 /* StopWatch02UITests.swift */,
-				ACA754922255CA470089D688 /* Info.plist */,
-			);
-			path = StopWatch02UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACA754862255CA470089D688 /* StopWatch02Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACA754912255CA470089D688 /* StopWatch02UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
